@@ -53,7 +53,7 @@ body, .app {
   bottom: 25px;
 }
 
-.open-search button {
+.open-search a {
   display: block;
   width: 50px;
   height: 50px;
@@ -68,7 +68,7 @@ body, .app {
   outline: 0;
 }
 
-.open-search button:hover {
+.open-search a:hover {
   background-color: rgb(0, 102, 0);
 }
 
@@ -113,7 +113,7 @@ body, .app {
   outline: none;
 }
 
-button:active {
+a:active {
   border: red;
   outline: none;
 }
@@ -196,3 +196,48 @@ button:active {
   text-align: center;
   font-size: 0.8em;
 }
+/*
+.book-shelf-changer, .currentlyWatching{
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #60ac5d;
+  background-image: url('/static/media/baseline-hourglass_empty-24px.5128eaf1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.book-shelf-changer, .wantToRead {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #60ac5d;
+  background-image: url('/static/media/baseline-favorite_border-24px.7b539e13.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.book-shelf-changer, .read {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #60ac5d;
+  background-image: url('/static/media/baseline-done-24px.f88f4a8e.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}*/
